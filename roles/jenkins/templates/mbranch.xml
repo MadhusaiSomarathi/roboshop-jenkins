@@ -23,7 +23,7 @@
             <jenkins.branch.BranchSource>
                 <source class="jenkins.plugins.git.GitSCMSource" plugin="git">
                     <id>56ea8e44-e604-4cf7-926c-3dc975e66460</id>
-                    <remote>https://github.com/MadhusaiSomarathi/"{{item.name}}"</remote>
+                    <remote>https://github.com/MadhusaiSomarathi/{{item.name}}</remote>
                     <credentialsId></credentialsId>
                     <traits>
                         <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
