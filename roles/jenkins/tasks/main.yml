@@ -8,12 +8,12 @@
   loop:
     - { name: "ci-pipelines"}
 
-- name: Include Multibranch task file
-  ansible.builtin.include_tasks: mbranch.yml
-  loop:
-    - { name: "cart"}
-    - { name: "catalogue"}
-    - { name: "user"}
-    - { name: "shipping"}
-    - { name: "payment"}
-    - { name: "frontend"}
+#- name: Include Multibranch task file
+#  ansible.builtin.include_tasks: mbranch.yml
+#  loop:
+#    - { name: "cart"}
+#    - { name: "catalogue"}
+#    - { name: "user"}
+#    - { name: "shipping"}
+#    - { name: "payment"}
+#    - { name: "frontend"}
