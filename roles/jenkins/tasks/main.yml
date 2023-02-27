@@ -3,7 +3,7 @@
     config: "{{ lookup('file', 'templates/folder.xml') }}"
     name: "{{item.name}}"
     password: admin
-    url: http://172.31.11.170:8080
+    url: http://172.31.4.146:8080
     user: admin
   loop:
     - { name: "ci-pipelines"}
